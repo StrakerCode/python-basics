@@ -11,9 +11,9 @@ class Restaurant:
     def mostrar_restaurant(self):
         print(f'Nombre: {self.nombre} \r\n Categoría: {self.categoria} \r\n Precio: ${self.__precio}')
 
-
     # GETTERS Y SETTERS - Get = Obtiene un valor, Set = Agrega un valor.
-    # Permiten acceder a atributos privados de una clase
+         # Permiten acceder a atributos privados de una clase
+
     def get_precio(self):
         # print(self.__precio)
         return self.__precio
