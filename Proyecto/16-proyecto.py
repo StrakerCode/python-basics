@@ -109,6 +109,8 @@ def editar_contacto():
             archivo.write('Telefono: ' + contacto.telefono + '\r\n')
             archivo.write('Categoria: ' + contacto.categoria + '\r\n')
 
+            #Pediente de correción
+            
             # Renombrar el archivo
             # os.rename(CARPETA + nombre_anterior + EXTENSION, CARPETA + nombre_contacto + EXTENSION)
 
